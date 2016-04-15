@@ -100,6 +100,8 @@ void CSampleService::ServiceWorkerThread(void)
     {
         // Perform main service function here...
 
+		::OutputDebugString(L"hello service!");
+
         ::Sleep(2000);  // Simulate some lengthy operations.
     }
 
